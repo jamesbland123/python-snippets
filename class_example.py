@@ -19,7 +19,6 @@ class vw(car):
 d = drive(10, 5)
 
 k = vw(d)
-
 k.fast()
 
 print(k.drive_obj.acceleration, k.drive_obj.drift) 
