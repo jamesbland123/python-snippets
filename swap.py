@@ -10,3 +10,9 @@ def swap(i, j):
 
 a, b = swap(a, b)
 print(a, b)
+
+# Easier swap using multiple assignment
+
+x, y = 10, 20
+y, x = x, y
+print(x, y)
